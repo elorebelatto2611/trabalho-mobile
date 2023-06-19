@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ELO</title>
+</head>
+<body>
+    <script>
+        let numero1 = parseFloat(prompt("Digite o primeiro número (em ordem crescente):"));
+let numero2 = parseFloat(prompt("Digite o segundo número (em ordem crescente):"));
+let numero3 = parseFloat(prompt("Digite o terceiro número (em ordem crescente):"));
+let numero4 = parseFloat(prompt("Digite o quarto número:"));
+
+if (numero4 < numero1) {
+    alert("O quarto número não segue a ordem crescente.");
+} else if (numero4 < numero2) {
+    alert("O quarto número está entre o primeiro e o segundo número.");
+} else if (numero4 < numero3) {
+    alert("O quarto número está entre o segundo e o terceiro número.");
+} else {
+    alert("O quarto número é maior que o terceiro número.");
+}
+    </script>
+
+</body>
+</html>

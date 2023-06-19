@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ELO</title>
+</head>
+<body>
+    <script>
+        let nota = parseFloat(prompt("Digite uma nota entre zero e dez:"));
+
+while (nota < 0 || nota > 10 || isNaN(nota)) {
+  alert("Valor inválido. Por favor, digite uma nota entre zero e dez.");
+  nota = parseFloat(prompt("Digite uma nota entre zero e dez:"));
+}
+
+alert("Valor válido informado:", nota);
+    </script>
+ 
+</body>
+</html>

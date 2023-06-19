@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ELO</title>
+</head>
+<body>
+  <script>
+ let numero1 = parseFloat(prompt("Digite o primeiro número:"));
+let numero2 = parseFloat(prompt("Digite o segundo número:"));
+let numero3 = parseFloat(prompt("Digite o terceiro número:"));
+
+let numeros = [numero1, numero2, numero3];
+numeros.sort(function(a, b) {
+    return a - b;
+});
+
+alert("Os números em ordem crescente são:"+ numeros);
+  </script>
+</body>
+</html>

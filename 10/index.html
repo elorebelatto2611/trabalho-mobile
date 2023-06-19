@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ELO</title>
+</head>
+<body>
+    <script>
+        let nome1 = prompt("Digite o nome da primeira pessoa:");
+let peso1 = parseFloat(prompt("Digite o peso da primeira pessoa (em kg):"));
+
+let nome2 = prompt("Digite o nome da segunda pessoa:");
+let peso2 = parseFloat(prompt("Digite o peso da segunda pessoa (em kg):"));
+
+if (peso1 > peso2) {
+    alert(nome1 + " é a pessoa mais gorda.");
+} else if (peso2 > peso1) {
+    alert(nome2 + " é a pessoa mais gorda.");
+} else {
+    alert("As duas pessoas têm o mesmo peso.");
+}
+    </script>
+ 
+</body>
+</html>
